@@ -29,6 +29,8 @@ public class questao13 {
         } else {
             System.out.println("Você está abaixo do peso ideal!");
         }
+
+        scan.close();
     }
 
     public static double pesoIdeal(double altura, char sexo) {

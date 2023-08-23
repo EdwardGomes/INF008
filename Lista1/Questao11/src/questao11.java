@@ -24,5 +24,7 @@ public class questao11 {
         System.out.println("A soma do triplo do primeiro com o terceiro é: " + ((num1 * 3) + num3));
 
         System.out.println("O terceiro elevado ao cubo é: " + Math.pow(num3, 3));
+
+        scan.close();
     }
 }

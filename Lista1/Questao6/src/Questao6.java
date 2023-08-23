@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class Questao6 {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Digite o raio do circulo: ");
-        double raio = input.nextDouble();
+        double raio = scan.nextDouble();
 
         System.out.println("Area do circulo: " + areaCirculo(raio));
+
+        scan.close();
     }
 
     public static double areaCirculo(double raio) {

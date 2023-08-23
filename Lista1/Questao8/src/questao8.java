@@ -19,5 +19,7 @@ public class questao8 {
 
         salario = valorHora * horas;
         System.out.println("O salário do mês é: " + salario + "R$");
+
+        scan.close();
     }
 }

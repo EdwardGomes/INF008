@@ -18,5 +18,7 @@ public class questao9 {
         String celsiusFormatado = formato.format(celsius);
 
         System.out.println("A temperatura em Celsius é: " + celsiusFormatado + "°C");
+
+        scan.close();
     }
 }

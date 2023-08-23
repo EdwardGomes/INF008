@@ -14,9 +14,9 @@ public class questao10 {
         double farenheit = (celsius * 1.8) + 32;
 
         DecimalFormat df = new DecimalFormat("0.00");
-        String farenheitFormatado = df.format(farenheit);
 
-        System.out.println("A temperatura em graus Farenheit é: " + farenheitFormatado + "°F");
+        System.out.println("A temperatura em graus Farenheit é: " + df.format(farenheit) + "°F");
 
+        scan.close();
     }
 }

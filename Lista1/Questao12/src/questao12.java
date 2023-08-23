@@ -11,8 +11,7 @@ public class questao12 {
         double pesoIdeal = (72.7 * altura) - 58;
 
         DecimalFormat df = new DecimalFormat("#.##");
-        String pesoIdealFormatado = df.format(pesoIdeal);
 
-        System.out.println("O peso ideal para uma pessoa com " + altura + "m é " + pesoIdealFormatado + "kg.");
+        System.out.println("O peso ideal para uma pessoa com " + altura + "m é " + df.format(pesoIdeal) + "kg.");
     }
 }

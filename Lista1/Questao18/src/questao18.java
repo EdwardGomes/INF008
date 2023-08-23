@@ -23,5 +23,7 @@ public class questao18 {
         DecimalFormat df = new DecimalFormat("0.00");
 
         System.out.println("O tempo aproximado de download do arquivo é de " + df.format(tempoDownloadMinutos) + " minutos.");
+
+        scan.close();
     }
 }

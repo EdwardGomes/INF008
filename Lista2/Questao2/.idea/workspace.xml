@@ -6,4 +6,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="questao2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questao2" />
+      <module name="Questao2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.questao2" />
+      </list>
+    </recent_temporary>
+  </component>
 </project>

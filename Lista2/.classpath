@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Questao1/src"/>
+	<classpathentry kind="src" path="Questao2/src"/>
+	<classpathentry kind="src" path="Questao3/src"/>
+	<classpathentry kind="src" path="Questao4/src"/>
+	<classpathentry kind="src" path="Questao5/src"/>
+	<classpathentry kind="src" path="Questao6/src"/>
+	<classpathentry kind="src" path="Questao7/src"/>
+	<classpathentry kind="src" path="Questao8/src"/>
+	<classpathentry kind="output" path="Questao1/out/production/Questao1"/>
+</classpath>

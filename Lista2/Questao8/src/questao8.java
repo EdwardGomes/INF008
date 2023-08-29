@@ -13,5 +13,7 @@ public class questao8 {
         Produto p3 = new Produto(scan.next(), scan.nextDouble());
 
         System.out.println("O produto mais barato é: " + Produto.maisBarato(p1, p2, p3));
+
+        scan.close();
     }
 }

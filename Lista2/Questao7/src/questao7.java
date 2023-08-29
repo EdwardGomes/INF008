@@ -17,6 +17,8 @@ public class questao7 {
 
         System.out.println("O maior número é: " + maior);
         System.out.println("O menor número é: " + menor);
+
+        scan.close();
     }
 
     public static int maior(int n1, int n2, int n3) {

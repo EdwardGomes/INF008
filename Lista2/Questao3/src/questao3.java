@@ -10,7 +10,7 @@ public class questao3 {
         System.out.println("Digite uma letra: ");
         String letra = scan.next();
 
-        switch(letra.toUpperCase()){
+        switch (letra.toUpperCase()) {
             case "F":
                 System.out.println("F - Feminino");
                 break;
@@ -20,5 +20,7 @@ public class questao3 {
             default:
                 System.out.println("Sexo Inválido");
         }
+        
+        scan.close();
     }
 }

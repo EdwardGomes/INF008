@@ -18,7 +18,7 @@ public class Questao9 {
 		System.out.println("O número do meio é: " + Numeros.meio(n1, n2, n3));
 		System.out.println("O menor número é: " + Numeros.menor(n1, n2, n3));
 
-
+		scan.close();
 	}
 
 }

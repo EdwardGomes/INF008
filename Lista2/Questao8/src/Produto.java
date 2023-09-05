@@ -1,7 +1,7 @@
 public class Produto {
 
-    private String nome;
-    private double preco;
+    private final String nome;
+    private final double preco;
 
     public Produto(String nome, double preco) {// Construtor da classe Produto
         this.nome = nome;

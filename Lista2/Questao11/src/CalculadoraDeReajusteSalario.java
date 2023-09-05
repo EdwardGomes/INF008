@@ -1,6 +1,6 @@
 public class CalculadoraDeReajusteSalario {
 
-    private double salario;
+    private final double salario;
     private double percentualDeAumento;
     private double valorDoAumento;
     private double novoSalario;

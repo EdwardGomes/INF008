@@ -1,7 +1,7 @@
 public class Notas {
 
-    private double nota1;
-    private double nota2;
+    private final double nota1;
+    private final double nota2;
     private double media;
     private String conceito;
 

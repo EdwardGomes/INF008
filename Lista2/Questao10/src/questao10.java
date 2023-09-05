@@ -11,7 +11,7 @@ public class questao10 {
         System.out.println("Em que turno você estuda? Digite M-matutino ou V-Vespertino ou N- Noturno");
         Turnos t1 = new Turnos(scan.next());
 
-        System.out.println(Turnos.turno(t1.getTurno()));
+        System.out.println(Turnos.turno(t1.toString()));
 
         scan.close();
     }

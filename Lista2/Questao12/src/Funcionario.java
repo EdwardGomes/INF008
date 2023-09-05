@@ -1,7 +1,7 @@
 public class Funcionario {
 
-    private double valorHora;
-    private int horasTrabalhadas;
+    private final double valorHora;
+    private final int horasTrabalhadas;
     private double salarioBruto;
     private double descontoIR;
     private double descontoINSS;

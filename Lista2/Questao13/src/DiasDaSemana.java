@@ -1,6 +1,6 @@
 public class DiasDaSemana {
 
-    private int dia;
+    private final int dia;
 
     public DiasDaSemana(int dia) {
         this.dia = dia;

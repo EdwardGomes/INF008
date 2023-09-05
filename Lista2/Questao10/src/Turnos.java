@@ -1,14 +1,4 @@
-public class Turnos {
-
-    private String turno;
-
-    public Turnos(String turno) {
-        this.turno = turno;
-    }
-
-    public String getTurno() {
-        return this.turno;
-    }
+public record Turnos(String turno) {
 
     public String toString() {
         return this.turno;

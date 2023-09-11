@@ -9,7 +9,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite uma data no formato dd/mm/aaaa: ");
         String data = scan.nextLine();
-        String[] dataSplit = data.split("/");
+        String[] dataSplit = data.split("/");//separa a string em um array de strings
         int dia = Integer.parseInt(dataSplit[0]);
         int mes = Integer.parseInt(dataSplit[1]);
         int ano = Integer.parseInt(dataSplit[2]);
